@@ -19,7 +19,8 @@ Kopieren
 Bearbeiten
 #include "ft_printf.h"
 
-int main(void) {
+int main(void)
+{
     ft_printf("Hello, %s! The number is %d.\n", "world", 42);
     return 0;
 }
