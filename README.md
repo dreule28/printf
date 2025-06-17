@@ -1,4 +1,5 @@
-### Reimplementation of the standard printf() function. Supports basic formatting conversions:
+# 🔤 ft_printf
+Reimplementation of the standard printf() function. Supports basic formatting conversions:
 #### %c, %s, %p, %d, %i, %u, %x, %X, and %%.
 
 🛠️ Features
