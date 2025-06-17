@@ -1,5 +1,5 @@
-Reimplementation of the standard printf() function. Supports basic formatting conversions:
-%c, %s, %p, %d, %i, %u, %x, %X, and %%.
+### Reimplementation of the standard printf() function. Supports basic formatting conversions:
+#### %c, %s, %p, %d, %i, %u, %x, %X, and %%.
 
 🛠️ Features
 Handles string, character, pointer, decimal, unsigned, and hex outputs.
@@ -14,13 +14,12 @@ make
 
 
 ▶️ Example
-c
-Kopieren
-Bearbeiten
-#include "ft_printf.h"
-
-int main(void)
-{
-    ft_printf("Hello, %s! The number is %d.\n", "world", 42);
-    return 0;
-}
+<pre> 
+#include "libft.h" 
+    
+int main(void) 
+{ 
+    ft_printf("Hello, %s!\n", "world"); 
+    return 0; 
+} 
+</pre>
